@@ -10,7 +10,7 @@ import SwiftCurrent
 import SwiftCurrent_UIKit
 import UIKit
 
-final internal class RevealViewController: UIWorkflowItem<Color, Never> {
+internal final class RevealViewController: UIWorkflowItem<Color, Never> {
     private let pick: Color
 
     @IBOutlet private var sampleViews: [UIView]!

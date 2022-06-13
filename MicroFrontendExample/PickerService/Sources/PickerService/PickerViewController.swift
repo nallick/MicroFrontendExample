@@ -10,7 +10,7 @@ import SwiftCurrent
 import SwiftCurrent_UIKit
 import UIKit
 
-final internal class PickerViewController: UIWorkflowItem<Never, Color> {
+internal final class PickerViewController: UIWorkflowItem<Never, Color> {
 
     @IBOutlet var colorButtons: [UIButton]!
     @IBOutlet var attemptCountLabel: UILabel!

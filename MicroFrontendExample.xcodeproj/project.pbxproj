@@ -565,7 +565,7 @@
 			repositoryURL = "https://github.com/wwt/SwiftCurrent.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 5.0.0;
+				minimumVersion = 5.1.5;
 			};
 		};
 		016E2E9828303EEE00413C21 /* XCRemoteSwiftPackageReference "UIUTest" */ = {

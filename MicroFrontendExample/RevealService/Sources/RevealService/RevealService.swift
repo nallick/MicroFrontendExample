@@ -11,7 +11,7 @@ import Foundation
 import SwiftCurrent
 import UIKit
 
-final public class RevealService {
+public final class RevealService {
     internal let notificationCenter: NotificationCenter
     private let coreDataContext: ServiceCoreDataContext<RevealService>
     private var coreDataContextLoaded = false

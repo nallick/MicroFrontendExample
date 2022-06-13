@@ -59,8 +59,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/wwt/SwiftCurrent.git",
       "state" : {
-        "revision" : "b4d4a092258ac2e1fb195a80c8cab674ee7bbdae",
-        "version" : "5.1.4"
+        "revision" : "d40dc8f80e322160373e771d2e92a358a8d5ac8f",
+        "version" : "5.1.5"
       }
     },
     {

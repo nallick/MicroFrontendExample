@@ -10,7 +10,7 @@ import Foundation
 import SwiftCurrent
 import UIKit
 
-final public class PickerService {
+public final class PickerService {
     internal let notificationCenter: NotificationCenter
     private let userDefaults: UserDefaults!
 
@@ -22,7 +22,7 @@ final public class PickerService {
     }
 
     convenience public init() {
-        self.init(userDefaults: Self.userDefaults)
+        self.init(userDefaults: Self.userDefaults)  // from Apollo.ServiceModule.userDefaults
     }
 
     public init(notificationCenter: NotificationCenter = .default, userDefaults: UserDefaults?) {
