@@ -8,14 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		016E2E9028303E7800413C21 /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = 016E2E8F28303E7800413C21 /* Apollo */; };
-		016E2E9328303EC100413C21 /* SwiftCurrent in Frameworks */ = {isa = PBXBuildFile; productRef = 016E2E9228303EC100413C21 /* SwiftCurrent */; };
-		016E2E9728303EC100413C21 /* SwiftCurrent_UIKit in Frameworks */ = {isa = PBXBuildFile; productRef = 016E2E9628303EC100413C21 /* SwiftCurrent_UIKit */; };
 		016E2E9A28303EEE00413C21 /* UIUTest in Frameworks */ = {isa = PBXBuildFile; productRef = 016E2E9928303EEE00413C21 /* UIUTest */; };
-		016E2E9C28303F3900413C21 /* SwiftCurrent_Testing in Frameworks */ = {isa = PBXBuildFile; productRef = 016E2E9B28303F3900413C21 /* SwiftCurrent_Testing */; };
 		CA2D6353282AEFC900A2C7D0 /* SwiftCurrentExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2D6352282AEFC900A2C7D0 /* SwiftCurrentExtensionTests.swift */; };
 		CA2D6355282AF36D00A2C7D0 /* ApplicationDelegateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2D6354282AF36D00A2C7D0 /* ApplicationDelegateTests.swift */; };
-		CA2D635A282ECBF800A2C7D0 /* SwiftCurrentTestingAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2D6359282ECBF800A2C7D0 /* SwiftCurrentTestingAdditions.swift */; };
 		CA844A9C281B34A90037DC80 /* CommonTypes in Frameworks */ = {isa = PBXBuildFile; productRef = CA844A9B281B34A90037DC80 /* CommonTypes */; };
+		CAA5F8802874BC39008A457F /* SwiftCurrent in Frameworks */ = {isa = PBXBuildFile; productRef = CAA5F87F2874BC39008A457F /* SwiftCurrent */; };
+		CAA5F8842874BC39008A457F /* SwiftCurrent_UIKit in Frameworks */ = {isa = PBXBuildFile; productRef = CAA5F8832874BC39008A457F /* SwiftCurrent_UIKit */; };
+		CAA5F8862874BCB4008A457F /* SwiftCurrent_Testing in Frameworks */ = {isa = PBXBuildFile; productRef = CAA5F8852874BCB4008A457F /* SwiftCurrent_Testing */; };
 		CAB35C882825593F00AAAF3D /* PickerService in Frameworks */ = {isa = PBXBuildFile; productRef = CAB35C872825593F00AAAF3D /* PickerService */; };
 		CAF2E7E32819AA4A00CBB553 /* ApplicationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF2E7E22819AA4A00CBB553 /* ApplicationDelegate.swift */; };
 		CAF2E7E52819AA4A00CBB553 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF2E7E42819AA4A00CBB553 /* SceneDelegate.swift */; };
@@ -41,7 +40,6 @@
 /* Begin PBXFileReference section */
 		CA2D6352282AEFC900A2C7D0 /* SwiftCurrentExtensionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCurrentExtensionTests.swift; sourceTree = "<group>"; };
 		CA2D6354282AF36D00A2C7D0 /* ApplicationDelegateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationDelegateTests.swift; sourceTree = "<group>"; };
-		CA2D6359282ECBF800A2C7D0 /* SwiftCurrentTestingAdditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCurrentTestingAdditions.swift; sourceTree = "<group>"; };
 		CA844A9A281B34920037DC80 /* CommonTypes */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = CommonTypes; path = MicroFrontendExample/CommonTypes; sourceTree = "<group>"; };
 		CAB35C862825592D00AAAF3D /* PickerService */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = PickerService; path = MicroFrontendExample/PickerService; sourceTree = "<group>"; };
 		CAF2E7DF2819AA4A00CBB553 /* MicroFrontendExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MicroFrontendExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,8 +64,8 @@
 				CAB35C882825593F00AAAF3D /* PickerService in Frameworks */,
 				016E2E9028303E7800413C21 /* Apollo in Frameworks */,
 				CA844A9C281B34A90037DC80 /* CommonTypes in Frameworks */,
-				016E2E9728303EC100413C21 /* SwiftCurrent_UIKit in Frameworks */,
-				016E2E9328303EC100413C21 /* SwiftCurrent in Frameworks */,
+				CAA5F8842874BC39008A457F /* SwiftCurrent_UIKit in Frameworks */,
+				CAA5F8802874BC39008A457F /* SwiftCurrent in Frameworks */,
 				CAF2E831281B111000CBB553 /* RevealService in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -77,7 +75,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				016E2E9A28303EEE00413C21 /* UIUTest in Frameworks */,
-				016E2E9C28303F3900413C21 /* SwiftCurrent_Testing in Frameworks */,
+				CAA5F8862874BCB4008A457F /* SwiftCurrent_Testing in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,7 +122,6 @@
 			children = (
 				CA2D6354282AF36D00A2C7D0 /* ApplicationDelegateTests.swift */,
 				CA2D6352282AEFC900A2C7D0 /* SwiftCurrentExtensionTests.swift */,
-				CA2D6359282ECBF800A2C7D0 /* SwiftCurrentTestingAdditions.swift */,
 				CAF2E7FC2819AA4C00CBB553 /* WorkflowNavigationControllerTests.swift */,
 			);
 			path = MicroFrontendExampleTests;
@@ -168,8 +165,8 @@
 				CA844A9B281B34A90037DC80 /* CommonTypes */,
 				CAB35C872825593F00AAAF3D /* PickerService */,
 				016E2E8F28303E7800413C21 /* Apollo */,
-				016E2E9228303EC100413C21 /* SwiftCurrent */,
-				016E2E9628303EC100413C21 /* SwiftCurrent_UIKit */,
+				CAA5F87F2874BC39008A457F /* SwiftCurrent */,
+				CAA5F8832874BC39008A457F /* SwiftCurrent_UIKit */,
 			);
 			productName = MicroFrontendExample;
 			productReference = CAF2E7DF2819AA4A00CBB553 /* MicroFrontendExample.app */;
@@ -191,7 +188,7 @@
 			name = MicroFrontendExampleTests;
 			packageProductDependencies = (
 				016E2E9928303EEE00413C21 /* UIUTest */,
-				016E2E9B28303F3900413C21 /* SwiftCurrent_Testing */,
+				CAA5F8852874BCB4008A457F /* SwiftCurrent_Testing */,
 			);
 			productName = MicroFrontendExampleTests;
 			productReference = CAF2E7F82819AA4C00CBB553 /* MicroFrontendExampleTests.xctest */;
@@ -227,8 +224,8 @@
 			mainGroup = CAF2E7D62819AA4A00CBB553;
 			packageReferences = (
 				016E2E8E28303E7800413C21 /* XCRemoteSwiftPackageReference "Apollo" */,
-				016E2E9128303EC100413C21 /* XCRemoteSwiftPackageReference "SwiftCurrent" */,
 				016E2E9828303EEE00413C21 /* XCRemoteSwiftPackageReference "UIUTest" */,
+				CAA5F87E2874BC39008A457F /* XCRemoteSwiftPackageReference "SwiftCurrent" */,
 			);
 			productRefGroup = CAF2E7E02819AA4A00CBB553 /* Products */;
 			projectDirPath = "";
@@ -278,7 +275,6 @@
 			files = (
 				CA2D6353282AEFC900A2C7D0 /* SwiftCurrentExtensionTests.swift in Sources */,
 				CA2D6355282AF36D00A2C7D0 /* ApplicationDelegateTests.swift in Sources */,
-				CA2D635A282ECBF800A2C7D0 /* SwiftCurrentTestingAdditions.swift in Sources */,
 				CAF2E7FD2819AA4C00CBB553 /* WorkflowNavigationControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -560,20 +556,20 @@
 				minimumVersion = 1.0.0;
 			};
 		};
-		016E2E9128303EC100413C21 /* XCRemoteSwiftPackageReference "SwiftCurrent" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/wwt/SwiftCurrent.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.1.5;
-			};
-		};
 		016E2E9828303EEE00413C21 /* XCRemoteSwiftPackageReference "UIUTest" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/nallick/UIUTest.git";
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 1.0.0;
+			};
+		};
+		CAA5F87E2874BC39008A457F /* XCRemoteSwiftPackageReference "SwiftCurrent" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/wwt/SwiftCurrent.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.7;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
@@ -584,29 +580,29 @@
 			package = 016E2E8E28303E7800413C21 /* XCRemoteSwiftPackageReference "Apollo" */;
 			productName = Apollo;
 		};
-		016E2E9228303EC100413C21 /* SwiftCurrent */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 016E2E9128303EC100413C21 /* XCRemoteSwiftPackageReference "SwiftCurrent" */;
-			productName = SwiftCurrent;
-		};
-		016E2E9628303EC100413C21 /* SwiftCurrent_UIKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 016E2E9128303EC100413C21 /* XCRemoteSwiftPackageReference "SwiftCurrent" */;
-			productName = SwiftCurrent_UIKit;
-		};
 		016E2E9928303EEE00413C21 /* UIUTest */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 016E2E9828303EEE00413C21 /* XCRemoteSwiftPackageReference "UIUTest" */;
 			productName = UIUTest;
 		};
-		016E2E9B28303F3900413C21 /* SwiftCurrent_Testing */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 016E2E9128303EC100413C21 /* XCRemoteSwiftPackageReference "SwiftCurrent" */;
-			productName = SwiftCurrent_Testing;
-		};
 		CA844A9B281B34A90037DC80 /* CommonTypes */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = CommonTypes;
+		};
+		CAA5F87F2874BC39008A457F /* SwiftCurrent */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CAA5F87E2874BC39008A457F /* XCRemoteSwiftPackageReference "SwiftCurrent" */;
+			productName = SwiftCurrent;
+		};
+		CAA5F8832874BC39008A457F /* SwiftCurrent_UIKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CAA5F87E2874BC39008A457F /* XCRemoteSwiftPackageReference "SwiftCurrent" */;
+			productName = SwiftCurrent_UIKit;
+		};
+		CAA5F8852874BCB4008A457F /* SwiftCurrent_Testing */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CAA5F87E2874BC39008A457F /* XCRemoteSwiftPackageReference "SwiftCurrent" */;
+			productName = SwiftCurrent_Testing;
 		};
 		CAB35C872825593F00AAAF3D /* PickerService */ = {
 			isa = XCSwiftPackageProductDependency;

@@ -7,10 +7,15 @@
 import MicroFrontendExample
 
 import SwiftCurrent
+import SwiftCurrent_Testing
 import UIUTest
 import XCTest
 
 final class WorkflowNavigationControllerTests: XCTestCase {
+
+    func testWorkflowElementsExist() {
+        XCTAssertNotNil(AnyWorkflow.with(elements: WorkflowNavigationController.workflowElements))
+    }
 
     func testNavigationControllerLaunchesIntoExpectedWorkflow() {
         let navigationController = WorkflowNavigationController()
